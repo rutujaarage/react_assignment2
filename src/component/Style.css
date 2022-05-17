@@ -1,0 +1,57 @@
+body {
+    background-image: linear-gradient(lightblue,pink,lightyellow);
+    /* height: 200vh; */
+  }
+  .label {
+    font-size: 2vw;
+    font-weight: bolder;
+  }
+  h1{
+      color: white;
+      font-size: 5vw;
+  }
+  form{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+  }
+  input {
+    color: white;
+    height: 50px;
+    width: 250px;
+    font-size: 20px;
+    border-radius: 1vw;
+    background-color: rgb(20, 173, 224);
+  }
+  button {
+      color: white;
+    height: 3vw;
+    width: 15vw;
+    font-size: 2vw;
+    background-color: rgb(240, 150, 230);
+    border-radius: 1vw;
+  }
+  button:hover {
+    background-color: rgb(118, 4, 122);
+  }
+  .container {
+    border: 1vw solid rgb(255, 255, 255);
+    background-image: radial-gradient(rgb(247, 247, 247), rgb(64, 185, 8),rgb(150, 208, 227));
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 8vw;
+  }
+  .box {
+    color: white;
+    height: 10vw;
+    width: 30vw;
+    margin: 3vw;
+    text-align: center;
+    font-size: 2.5vw;
+    background-color: rgb(240, 174, 183);
+    border: 2px solid rgb(142, 142, 142);
+    border-radius: 2vw;
+    padding: 1vw;
+  }
